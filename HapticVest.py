@@ -1,4 +1,6 @@
-"""CameraParser - designed to parse data from a camera such as the Microsoft
+# WARNING: Half of this was thrown together quickly overnight. This currently needs a refactor."
+
+"""HapticVest - designed to parse data from a camera such as the Microsoft
 Kinect, in order to translate the data into intuitively acceptable input,
 such as haptic feedback, for blind individuals.
 
@@ -22,7 +24,7 @@ import wiringpi as wp
 import datetime
 
 
-class CameraParser:
+class HapticVest:
     """Designed to parse output from the camera to various subdivided segments.
 
     A use case involves haptic feedback vests, in which we can subdivide
@@ -231,7 +233,7 @@ import time
 
 
 def main():
-    parser = CameraParser(8, 4)
+    parser = HapticVest(8, 4)
     while True:
         v = parser.getValues()
         parser.actuate(v)
@@ -242,4 +244,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-0
