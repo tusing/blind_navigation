@@ -9,4 +9,4 @@ Over time, the user adapts to the haptic feedback input and learns from it, allo
 
 See it in action by clicking the image above, or any of the following links: [**1**](https://www.youtube.com/watch?v=NScBgr_RHSM), [**2**](https://www.youtube.com/watch?v=Wnx2A0cdaJs), [**3**](https://www.youtube.com/watch?v=2T-LVleONyw)
 
-***Warning: This branch is a refactor-in-progress. Please check out "master" for a working version.***
+*Warning: This branch is a refactor-in-progress. Please check out "master" for a bug-free version.*
